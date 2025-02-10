@@ -124,7 +124,7 @@ class ExcelProcessorApp:
             self.source_entry.insert(0, file_path)
 
     def browse_dest_file(self):
-        file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text files", "*.txt *.docx")])
+        file_path = filedialog.askdirectory()
         if file_path:
             self.dest_entry.delete(0, tk.END)
             self.dest_entry.insert(0, file_path)
