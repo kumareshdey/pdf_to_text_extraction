@@ -1,0 +1,260 @@
+2025-02-10 12:31:59,860 - INFO - Starting PDF extraction. Source path: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf. Dest path: C:/Users/Administrator/Downloads
+2025-02-10 12:31:59,860 - INFO - Starting processing for: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-10 12:31:59,860 - INFO - Output path C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..txt
+2025-02-10 12:31:59,878 - INFO - Extracting text from file: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-10 12:31:59,885 - INFO - Processing PDF: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-10 12:32:06,063 - INFO - Starting image preprocessing.
+2025-02-10 12:32:08,460 - INFO - Image preprocessing completed.
+2025-02-10 12:32:08,469 - INFO - Processing image for column detection.
+2025-02-10 12:32:08,501 - INFO - Padding removed: Cropped width from 216 to 1487
+2025-02-10 12:32:19,478 - INFO - Correcting spelling...
+2025-02-10 12:32:38,439 - INFO - Correcting spelling...
+2025-02-10 12:32:40,396 - INFO - Starting image preprocessing.
+2025-02-10 12:32:42,550 - INFO - Image preprocessing completed.
+2025-02-10 12:32:42,556 - INFO - Processing image for column detection.
+2025-02-10 12:32:42,588 - INFO - Padding removed: Cropped width from 200 to 1495
+2025-02-10 12:32:42,659 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-02-10 12:33:01,641 - INFO - Correcting spelling...
+2025-02-10 12:33:14,566 - INFO - Starting image preprocessing.
+2025-02-10 12:33:16,754 - INFO - Image preprocessing completed.
+2025-02-10 12:33:16,770 - INFO - Processing image for column detection.
+2025-02-10 12:33:16,801 - INFO - Padding removed: Cropped width from 200 to 1491
+2025-02-10 12:33:16,898 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-02-10 12:33:36,317 - INFO - Correcting spelling...
+2025-02-10 12:33:40,442 - INFO - Starting image preprocessing.
+2025-02-10 12:33:42,474 - INFO - Image preprocessing completed.
+2025-02-10 12:33:42,490 - INFO - Processing image for column detection.
+2025-02-10 12:33:42,521 - INFO - Padding removed: Cropped width from 200 to 1490
+2025-02-10 12:33:42,629 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-02-10 17:50:21,305 - INFO - Starting PDF extraction. Source path: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf. Dest path: C:/Users/Administrator/Downloads
+2025-02-10 17:50:21,326 - INFO - Poppler is not installed.
+2025-02-10 17:50:21,329 - INFO - Downloading Poppler...
+2025-02-10 17:50:22,829 - INFO - Extracting Poppler...
+2025-02-10 17:50:23,475 - INFO - Adding Poppler to PATH: C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\poppler\poppler-23.11.0\Library\bin
+2025-02-10 17:50:23,475 - INFO - Poppler is already in the system PATH.
+2025-02-10 17:50:23,490 - INFO - Poppler installed successfully!
+2025-02-10 17:50:23,497 - INFO - TextBlob is already installed.
+2025-02-10 17:50:23,501 - INFO - TextBlob corpora is already installed.
+2025-02-10 17:50:23,507 - INFO - TextBlob data path set: C:\Users\Administrator/.textblob
+2025-02-10 17:50:23,516 - INFO - TextBlob is ready to use!
+2025-02-10 17:50:23,524 - INFO - Starting processing for: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-10 17:50:23,532 - INFO - Output path C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..txt
+2025-02-10 17:50:23,539 - INFO - Extracting text from file: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-10 17:50:23,549 - INFO - Processing PDF: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-10 17:50:30,896 - INFO - Starting image preprocessing.
+2025-02-10 17:50:33,199 - INFO - Image preprocessing completed.
+2025-02-10 17:50:33,209 - INFO - Processing image for column detection.
+2025-02-10 17:50:33,251 - INFO - Padding removed: Cropped width from 216 to 1487
+2025-02-10 17:50:44,396 - INFO - Correcting spelling...
+2025-02-10 17:50:45,491 - ERROR - Error processing PDF: main thread is not in main loop
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 150, in extract_text_from_pdf
+    page_text.append(correct_spelling(column_text, logger))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 107, in correct_spelling
+    logger.info("Correcting spelling...")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1539, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\ui.py", line 47, in emit
+    self.logger_widget.log_text(msg, tag)
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\ui.py", line 25, in log_text
+    self.textbox.config(state="normal")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1722, in configure
+    return self._configure('configure', cnf, kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1712, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+
+2025-02-10 17:50:46,584 - ERROR - Error occurred: main thread is not in main loop
+2025-02-11 17:40:09,713 - INFO - Starting PDF extraction. Source path: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf. Dest path: C:/Users/Administrator/Downloads
+2025-02-11 17:40:09,718 - INFO - Poppler is not installed.
+2025-02-11 17:40:09,718 - INFO - Downloading Poppler...
+2025-02-11 17:40:11,148 - INFO - Extracting Poppler...
+2025-02-11 17:40:11,785 - INFO - Adding Poppler to PATH: C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\poppler\poppler-23.11.0\Library\bin
+2025-02-11 17:40:11,794 - INFO - Poppler is already in the system PATH.
+2025-02-11 17:40:11,799 - INFO - Poppler installed successfully!
+2025-02-11 17:40:11,802 - INFO - TextBlob is ready to use!
+2025-02-11 17:40:11,808 - INFO - Starting processing for: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-11 17:40:11,815 - INFO - Output path C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..txt
+2025-02-11 17:40:11,819 - INFO - Extracting text from file: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-11 17:40:11,827 - INFO - Processing PDF: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-11 17:40:11,967 - INFO - PDF contains text layer, extracting text.
+2025-02-11 17:40:12,015 - ERROR - Error processing PDF: 'list' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 132, in extract_text_from_pdf
+    extracted_text(text)
+TypeError: 'list' object is not callable
+
+2025-02-11 17:40:12,031 - INFO - Processing completed.
+2025-02-11 17:40:12,040 - INFO - PDF extraction completed.
+2025-02-11 17:41:35,411 - INFO - Starting PDF extraction. Source path: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf. Dest path: C:/Users/Administrator/Downloads
+2025-02-11 17:41:35,411 - INFO - Poppler is not installed.
+2025-02-11 17:41:35,411 - INFO - Downloading Poppler...
+2025-02-11 17:41:36,621 - INFO - Extracting Poppler...
+2025-02-11 17:41:37,133 - INFO - Adding Poppler to PATH: C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\poppler\poppler-23.11.0\Library\bin
+2025-02-11 17:41:37,136 - INFO - Poppler is already in the system PATH.
+2025-02-11 17:41:37,140 - INFO - Poppler installed successfully!
+2025-02-11 17:41:37,147 - INFO - TextBlob is ready to use!
+2025-02-11 17:41:37,155 - INFO - Starting processing for: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-11 17:41:37,163 - INFO - Output path C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..txt
+2025-02-11 17:41:37,166 - INFO - Extracting text from file: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-11 17:41:37,171 - INFO - Processing PDF: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-11 17:41:37,201 - INFO - PDF contains text layer, extracting text.
+2025-02-11 17:41:38,008 - INFO - Saving extracted text to: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..txt
+2025-02-11 17:41:38,019 - INFO - Text successfully saved to: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..txt
+2025-02-11 17:41:38,028 - INFO - Processing completed.
+2025-02-11 17:41:38,040 - INFO - PDF extraction completed.
+2025-02-12 10:03:48,596 - INFO - Starting PDF extraction. Source path: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf. Dest path: C:/Users/Administrator/Downloads
+2025-02-12 10:03:48,596 - INFO - Poppler is not installed.
+2025-02-12 10:03:48,596 - INFO - Downloading Poppler...
+2025-02-12 10:03:49,938 - INFO - Extracting Poppler...
+2025-02-12 10:03:50,615 - INFO - Adding Poppler to PATH: C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\poppler\poppler-23.11.0\Library\bin
+2025-02-12 10:03:50,622 - INFO - Poppler is already in the system PATH.
+2025-02-12 10:03:50,625 - INFO - Poppler installed successfully!
+2025-02-12 10:03:50,633 - INFO - TextBlob is ready to use!
+2025-02-12 10:03:50,639 - INFO - Starting processing for: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-12 10:03:50,646 - INFO - Output path C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..txt
+2025-02-12 10:03:50,652 - INFO - Extracting text from file: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-12 10:03:50,663 - INFO - Processing PDF: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-12 10:03:56,855 - INFO - Starting image preprocessing.
+2025-02-12 10:03:59,023 - INFO - Image preprocessing completed.
+2025-02-12 10:03:59,029 - INFO - Processing image for column detection.
+2025-02-12 10:03:59,090 - INFO - Padding removed: Cropped width from 216 to 1487
+2025-02-12 10:04:10,858 - INFO - Correcting spelling...
+2025-02-12 10:04:29,642 - INFO - Correcting spelling...
+2025-02-12 10:04:30,712 - ERROR - Error processing PDF: main thread is not in main loop
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 153, in extract_text_from_pdf
+    page_text.append(correct_spelling(column_text, logger))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 107, in correct_spelling
+    logger.info("Correcting spelling...")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1539, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\ui.py", line 47, in emit
+    self.logger_widget.log_text(msg, tag)
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\ui.py", line 25, in log_text
+    self.textbox.config(state="normal")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1722, in configure
+    return self._configure('configure', cnf, kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1712, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+
+2025-02-12 10:04:31,748 - ERROR - Error occurred: main thread is not in main loop
+2025-02-12 10:06:29,530 - INFO - Starting PDF extraction. Source path: C:/Users/Administrator/Downloads/10%20Order%20Entered.pdf. Dest path: C:/Users/Administrator/Downloads
+2025-02-12 10:06:29,546 - INFO - Poppler is not installed.
+2025-02-12 10:06:29,546 - INFO - Downloading Poppler...
+2025-02-12 10:06:31,138 - INFO - Extracting Poppler...
+2025-02-12 10:06:31,669 - INFO - Adding Poppler to PATH: C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\poppler\poppler-23.11.0\Library\bin
+2025-02-12 10:06:31,677 - INFO - Poppler is already in the system PATH.
+2025-02-12 10:06:31,683 - INFO - Poppler installed successfully!
+2025-02-12 10:06:31,689 - INFO - TextBlob is ready to use!
+2025-02-12 10:06:31,694 - INFO - Starting processing for: C:/Users/Administrator/Downloads/10%20Order%20Entered.pdf
+2025-02-12 10:06:31,702 - INFO - Output path C:/Users/Administrator/Downloads/10%20Order%20Entered.txt
+2025-02-12 10:06:31,707 - INFO - Extracting text from file: C:/Users/Administrator/Downloads/10%20Order%20Entered.pdf
+2025-02-12 10:06:31,713 - INFO - Processing PDF: C:/Users/Administrator/Downloads/10%20Order%20Entered.pdf
+2025-02-12 10:06:39,030 - INFO - Starting image preprocessing.
+2025-02-12 10:06:41,301 - INFO - Image preprocessing completed.
+2025-02-12 10:06:41,309 - INFO - Processing image for column detection.
+2025-02-12 10:06:41,339 - INFO - Padding removed: Cropped width from 1 to 1690
+2025-02-12 10:06:43,592 - INFO - Correcting spelling...
+2025-02-12 10:07:01,879 - INFO - Correcting spelling...
+2025-02-12 10:07:02,926 - ERROR - Error processing PDF: main thread is not in main loop
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 154, in extract_text_from_pdf
+    page_text.append(correct_spelling(column_text, logger))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 107, in correct_spelling
+    logger.info("Correcting spelling...")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1539, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\ui.py", line 47, in emit
+    self.logger_widget.log_text(msg, tag)
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\ui.py", line 25, in log_text
+    self.textbox.config(state="normal")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1722, in configure
+    return self._configure('configure', cnf, kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1712, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+
+2025-02-12 10:07:03,989 - ERROR - Error occurred: main thread is not in main loop
+2025-02-12 10:08:27,278 - INFO - Starting PDF extraction. Source path: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf. Dest path: C:/Users/Administrator/Downloads
+2025-02-12 10:08:27,278 - INFO - Poppler is not installed.
+2025-02-12 10:08:27,278 - INFO - Downloading Poppler...
+2025-02-12 10:08:28,432 - INFO - Extracting Poppler...
+2025-02-12 10:08:28,942 - INFO - Adding Poppler to PATH: C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\poppler\poppler-23.11.0\Library\bin
+2025-02-12 10:08:28,947 - INFO - Poppler is already in the system PATH.
+2025-02-12 10:08:28,954 - INFO - Poppler installed successfully!
+2025-02-12 10:08:28,959 - INFO - TextBlob is ready to use!
+2025-02-12 10:08:28,966 - INFO - Starting processing for: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-12 10:08:28,973 - INFO - Output path C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..txt
+2025-02-12 10:08:28,979 - INFO - Extracting text from file: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-12 10:08:28,986 - INFO - Processing PDF: C:/Users/Administrator/Downloads/Complaint%20Passport%20Auto%20Group%2C%20Inc.%2C%20et%20al..pdf
+2025-02-12 10:08:34,506 - INFO - Starting image preprocessing.
+2025-02-12 10:08:36,725 - INFO - Image preprocessing completed.
+2025-02-12 10:08:36,725 - INFO - Processing image for column detection.
+2025-02-12 10:08:36,772 - INFO - Padding removed: Cropped width from 216 to 1487
+2025-02-12 10:08:53,386 - INFO - Starting image preprocessing.
+2025-02-12 10:08:55,649 - INFO - Image preprocessing completed.
+2025-02-12 10:08:55,667 - INFO - Processing image for column detection.
+2025-02-12 10:08:55,701 - INFO - Padding removed: Cropped width from 200 to 1495
+2025-02-12 10:08:55,785 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-02-12 10:09:15,513 - INFO - Starting image preprocessing.
+2025-02-12 10:09:16,581 - ERROR - Error processing PDF: main thread is not in main loop
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 143, in extract_text_from_pdf
+    processed_image = preprocess_image(image, logger)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\full_implementation_1.py", line 19, in preprocess_image
+    logger.info("Starting image preprocessing.")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1539, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1684, in _log
+    self.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1028, in handle
+    self.emit(record)
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\ui.py", line 47, in emit
+    self.logger_widget.log_text(msg, tag)
+  File "C:\Users\Administrator\Desktop\fiverr\pdf_to_text_extraction\ui.py", line 25, in log_text
+    self.textbox.config(state="normal")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1722, in configure
+    return self._configure('configure', cnf, kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 1712, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+
+2025-02-12 10:09:17,645 - ERROR - Error occurred: main thread is not in main loop

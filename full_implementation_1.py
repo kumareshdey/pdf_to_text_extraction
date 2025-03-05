@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 from pdf2image import convert_from_path
 from PIL import Image, ImageEnhance
 import easyocr
@@ -13,6 +12,7 @@ import json
 from datetime import datetime
 from textblob import TextBlob
 import logging
+import traceback 
 
 def preprocess_image(image, logger):
     """Preprocessing to enhance text clarity and make it thinner for OCR."""
@@ -108,7 +108,7 @@ def correct_spelling(text: str, logger) -> str:
     corrected_text = str(TextBlob(text).correct())
     return corrected_text
 
-def extract_text_from_pdf(pdf_path: str, output_path: str, logger, queue, basic: bool = False) -> List[str]:
+def extract_text_from_pdf(pdf_path: str, output_path: str, logger, queue, basic: bool = False, spellcheck: bool = False) -> List[str]:
     extracted_text = []
     preprocessed_images = []
     
@@ -126,7 +126,10 @@ def extract_text_from_pdf(pdf_path: str, output_path: str, logger, queue, basic:
                     for page in pdf_reader.pages:
                         text = page.extract_text()
                         if text.strip():
-                            extracted_text.append(correct_spelling(text, logger))
+                            if spellcheck:
+                                extracted_text.append(correct_spelling(text, logger))
+                            else:
+                                extracted_text.append(text)
                 return extracted_text
             else:
                 logger.info("No text layer found. Extracting text using OCR.")
@@ -147,7 +150,10 @@ def extract_text_from_pdf(pdf_path: str, output_path: str, logger, queue, basic:
             for column_img in columns:
                 results = reader.readtext(np.array(column_img))
                 column_text = ' '.join([text[1] for text in results])
-                page_text.append(correct_spelling(column_text, logger))
+                if spellcheck:
+                    page_text.append(correct_spelling(column_text, logger))
+                else:
+                    page_text.append(column_text)
             
             extracted_text.append("\n".join(page_text))
 
@@ -162,15 +168,16 @@ def extract_text_from_pdf(pdf_path: str, output_path: str, logger, queue, basic:
         logger.info("Text extraction completed.")
         return extracted_text
 
+    
     except Exception as e:
-        logger.error(f"Error processing PDF: {str(e)}")
+        logger.error(f"Error processing PDF: {str(e)}\n{traceback.format_exc()}")
         return []
 
-def extract_text(file_path: str, output_path: str, logger, queue, basic) -> List[str]:
+def extract_text(file_path: str, output_path: str, logger, queue, basic, spellcheck) -> List[str]:
     file_extension = os.path.splitext(file_path)[1].lower()
     logger.info(f"Extracting text from file: {file_path}")
     if file_extension == '.pdf':
-        return extract_text_from_pdf(file_path, output_path, logger, queue, basic)
+        return extract_text_from_pdf(file_path, output_path, logger, queue, basic, spellcheck)
     else:
         logger.warning(f"Unsupported file format: {file_extension}")
         return []
@@ -192,11 +199,11 @@ def save_extracted_text(text_list: List[str], output_path: str, logger) -> str:
     logger.info(f"Text successfully saved to: {file_path}")
     return file_path
 
-def main(pdf_file, output_path, logger, queue, basic):
+def main(pdf_file, output_path, logger, queue, basic, spellcheck):
     logger.info(f"Starting processing for: {pdf_file}")
     output_path = f"{output_path}/{os.path.splitext(os.path.basename(pdf_file))[0]}.txt"
     logger.info(f"Output path {output_path}")
-    pdf_text = extract_text(pdf_file, output_path, logger, queue, basic)
+    pdf_text = extract_text(pdf_file, output_path, logger, queue, basic, spellcheck)
     if pdf_text:
         save_extracted_text(pdf_text, output_path, logger)
     logger.info("Processing completed.")

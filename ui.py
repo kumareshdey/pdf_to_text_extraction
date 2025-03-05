@@ -1,3 +1,4 @@
+from poppler_installer import decider
 import threading
 import openpyxl
 import tkinter as tk
@@ -73,6 +74,9 @@ class ExcelProcessorApp:
         self.basic_var = tk.BooleanVar()
         self.basic_checkbox = tk.Checkbutton(root, text="Do you want basic extraction? (Faster)", variable=self.basic_var)
         self.basic_checkbox.pack(pady=5)
+        self.spellcheck_var = tk.BooleanVar()
+        self.spellcheck_checkbox = tk.Checkbutton(root, text="Do you need spelling check?", variable=self.spellcheck_var)
+        self.spellcheck_checkbox.pack(pady=5)
 
         # Submit button
         self.submit_button = tk.Button(root, text="Submit", command=self.process_excel)
@@ -133,21 +137,22 @@ class ExcelProcessorApp:
         source_file = self.source_entry.get()
         dest_file = self.dest_entry.get()
         basic = self.basic_var.get()
-        print(basic)
+        spellcheck = self.spellcheck_var.get()
 
         if not source_file or not dest_file:
             messagebox.showerror("Error", "Please select both source and destination files")
             return
 
-        threading.Thread(target=self.process_excel_thread, args=(source_file, dest_file, basic)).start()
+        threading.Thread(target=self.process_excel_thread, args=(source_file, dest_file, basic, spellcheck)).start()
 
-    def process_excel_thread(self, source_file, dest_file, basic):
+    def process_excel_thread(self, source_file, dest_file, basic, spellcheck):
         try:
             self.queue.put(('submit_button', 'disabled'))
             self.queue.put(('progress', 0))
             self.queue.put(('progress_label', "0% (0/0)"))
             self.logger.info(f"Starting PDF extraction. Source path: {source_file}. Dest path: {dest_file}")
-            main(source_file, dest_file, self.logger, self.queue, basic)
+            decider(self.logger)
+            main(source_file, dest_file, self.logger, self.queue, basic, spellcheck)
             # # Read the source Excel file
             # df = pd.read_excel(source_file)
             # total_rows = len(df)
