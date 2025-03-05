@@ -133,7 +133,6 @@ class ExcelProcessorApp:
         source_file = self.source_entry.get()
         dest_file = self.dest_entry.get()
         basic = self.basic_var.get()
-        print(basic)
 
         if not source_file or not dest_file:
             messagebox.showerror("Error", "Please select both source and destination files")
