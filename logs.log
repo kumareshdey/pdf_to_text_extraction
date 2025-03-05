@@ -89,3 +89,567 @@
 2025-03-04 11:44:33,104 - INFO - Output path //COLLOCATION Dictionary.txt
 2025-03-04 11:44:33,105 - INFO - Extracting text from file: /Users/kumareshdey/Downloads/COLLOCATION Dictionary.pdf
 2025-03-04 11:44:33,105 - INFO - Processing PDF: /Users/kumareshdey/Downloads/COLLOCATION Dictionary.pdf
+2025-03-05 16:40:57,026 - INFO - Starting PDF extraction. Source path: /Users/kumareshdey/Downloads/Chinese Poems2.pdf. Dest path: /Users/kumareshdey/Downloads
+2025-03-05 16:40:57,655 - INFO - Poppler is already installed.
+2025-03-05 16:40:57,656 - INFO - Poppler is already installed. No need to install again.
+2025-03-05 16:40:57,660 - INFO - TextBlob is ready to use!
+2025-03-05 16:40:57,661 - INFO - Starting processing for: /Users/kumareshdey/Downloads/Chinese Poems2.pdf
+2025-03-05 16:40:57,662 - INFO - Output path /Users/kumareshdey/Downloads/Chinese Poems2.txt
+2025-03-05 16:40:57,662 - INFO - Extracting text from file: /Users/kumareshdey/Downloads/Chinese Poems2.pdf
+2025-03-05 16:40:57,662 - INFO - Processing PDF: /Users/kumareshdey/Downloads/Chinese Poems2.pdf
+2025-03-05 16:41:08,203 - INFO - Starting image preprocessing.
+2025-03-05 16:41:08,719 - INFO - Image preprocessing completed.
+2025-03-05 16:41:08,720 - INFO - Processing image for column detection.
+2025-03-05 16:41:08,770 - INFO - Padding removed: Cropped width from 10 to 956
+2025-03-05 16:41:13,395 - INFO - Starting image preprocessing.
+2025-03-05 16:41:13,741 - INFO - Image preprocessing completed.
+2025-03-05 16:41:13,743 - INFO - Processing image for column detection.
+2025-03-05 16:41:13,766 - INFO - Padding removed: Cropped width from 0 to 940
+2025-03-05 16:41:17,148 - INFO - Starting image preprocessing.
+2025-03-05 16:41:17,583 - INFO - Image preprocessing completed.
+2025-03-05 16:41:17,584 - INFO - Processing image for column detection.
+2025-03-05 16:41:17,595 - INFO - Padding removed: Cropped width from 15 to 957
+2025-03-05 16:41:25,081 - INFO - Starting image preprocessing.
+2025-03-05 16:41:25,520 - INFO - Image preprocessing completed.
+2025-03-05 16:41:25,522 - INFO - Processing image for column detection.
+2025-03-05 16:41:25,538 - INFO - Padding removed: Cropped width from 0 to 939
+2025-03-05 16:41:30,407 - INFO - Starting image preprocessing.
+2025-03-05 16:41:30,929 - INFO - Image preprocessing completed.
+2025-03-05 16:41:30,938 - INFO - Processing image for column detection.
+2025-03-05 16:41:30,996 - INFO - Padding removed: Cropped width from 9 to 955
+2025-03-05 16:41:32,398 - INFO - Starting image preprocessing.
+2025-03-05 16:41:32,722 - INFO - Image preprocessing completed.
+2025-03-05 16:41:32,723 - INFO - Processing image for column detection.
+2025-03-05 16:41:32,731 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 16:41:35,519 - INFO - Starting image preprocessing.
+2025-03-05 16:41:35,912 - INFO - Image preprocessing completed.
+2025-03-05 16:41:35,913 - INFO - Processing image for column detection.
+2025-03-05 16:41:35,949 - INFO - Padding removed: Cropped width from 0 to 934
+2025-03-05 16:41:35,993 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:42:57,200 - INFO - Starting image preprocessing.
+2025-03-05 16:42:57,711 - INFO - Image preprocessing completed.
+2025-03-05 16:42:57,724 - INFO - Processing image for column detection.
+2025-03-05 16:42:57,751 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 16:43:17,573 - INFO - Starting image preprocessing.
+2025-03-05 16:43:18,403 - INFO - Image preprocessing completed.
+2025-03-05 16:43:18,405 - INFO - Processing image for column detection.
+2025-03-05 16:43:18,477 - INFO - Padding removed: Cropped width from 0 to 934
+2025-03-05 16:43:18,712 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:43:37,255 - INFO - Starting image preprocessing.
+2025-03-05 16:43:37,629 - INFO - Image preprocessing completed.
+2025-03-05 16:43:37,632 - INFO - Processing image for column detection.
+2025-03-05 16:43:37,644 - INFO - Padding removed: Cropped width from 0 to 939
+2025-03-05 16:43:40,633 - INFO - Starting image preprocessing.
+2025-03-05 16:43:40,900 - INFO - Image preprocessing completed.
+2025-03-05 16:43:40,901 - INFO - Processing image for column detection.
+2025-03-05 16:43:40,910 - INFO - Padding removed: Cropped width from 0 to 935
+2025-03-05 16:43:59,085 - INFO - Starting image preprocessing.
+2025-03-05 16:43:59,656 - INFO - Image preprocessing completed.
+2025-03-05 16:43:59,658 - INFO - Processing image for column detection.
+2025-03-05 16:43:59,756 - INFO - Padding removed: Cropped width from 0 to 935
+2025-03-05 16:44:18,020 - INFO - Starting image preprocessing.
+2025-03-05 16:44:18,363 - INFO - Image preprocessing completed.
+2025-03-05 16:44:18,365 - INFO - Processing image for column detection.
+2025-03-05 16:44:18,423 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 16:44:18,461 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:46:02,175 - INFO - Starting image preprocessing.
+2025-03-05 16:46:02,681 - INFO - Image preprocessing completed.
+2025-03-05 16:46:02,683 - INFO - Processing image for column detection.
+2025-03-05 16:46:02,744 - INFO - Padding removed: Cropped width from 0 to 929
+2025-03-05 16:46:02,801 - INFO - No columns detected, assuming single column layout.
+2025-03-05 16:47:42,651 - INFO - Starting image preprocessing.
+2025-03-05 16:47:43,177 - INFO - Image preprocessing completed.
+2025-03-05 16:47:43,179 - INFO - Processing image for column detection.
+2025-03-05 16:47:43,228 - INFO - Padding removed: Cropped width from 4 to 936
+2025-03-05 16:48:37,459 - INFO - Starting image preprocessing.
+2025-03-05 16:48:38,204 - INFO - Image preprocessing completed.
+2025-03-05 16:48:38,208 - INFO - Processing image for column detection.
+2025-03-05 16:48:38,238 - INFO - Padding removed: Cropped width from 0 to 939
+2025-03-05 16:49:16,027 - INFO - Starting image preprocessing.
+2025-03-05 16:49:16,870 - INFO - Image preprocessing completed.
+2025-03-05 16:49:16,873 - INFO - Processing image for column detection.
+2025-03-05 16:49:16,891 - INFO - Padding removed: Cropped width from 13 to 952
+2025-03-05 16:49:16,932 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:49:44,317 - INFO - Starting image preprocessing.
+2025-03-05 16:49:44,879 - INFO - Image preprocessing completed.
+2025-03-05 16:49:44,893 - INFO - Processing image for column detection.
+2025-03-05 16:49:44,909 - INFO - Padding removed: Cropped width from 0 to 940
+2025-03-05 16:49:55,406 - INFO - Starting image preprocessing.
+2025-03-05 16:49:55,660 - INFO - Image preprocessing completed.
+2025-03-05 16:49:55,663 - INFO - Processing image for column detection.
+2025-03-05 16:49:55,675 - INFO - Padding removed: Cropped width from 0 to 937
+2025-03-05 16:49:55,749 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:50:25,469 - INFO - Starting image preprocessing.
+2025-03-05 16:50:25,751 - INFO - Image preprocessing completed.
+2025-03-05 16:50:25,753 - INFO - Processing image for column detection.
+2025-03-05 16:50:25,772 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 16:50:25,824 - INFO - No columns detected, assuming single column layout.
+2025-03-05 16:50:47,645 - INFO - Starting image preprocessing.
+2025-03-05 16:50:48,057 - INFO - Image preprocessing completed.
+2025-03-05 16:50:48,059 - INFO - Processing image for column detection.
+2025-03-05 16:50:48,076 - INFO - Padding removed: Cropped width from 0 to 952
+2025-03-05 16:50:48,114 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:51:10,962 - INFO - Starting image preprocessing.
+2025-03-05 16:51:11,396 - INFO - Image preprocessing completed.
+2025-03-05 16:51:11,398 - INFO - Processing image for column detection.
+2025-03-05 16:51:11,426 - INFO - Padding removed: Cropped width from 0 to 941
+2025-03-05 16:51:11,447 - INFO - No columns detected, assuming single column layout.
+2025-03-05 16:51:37,589 - INFO - Starting image preprocessing.
+2025-03-05 16:51:37,907 - INFO - Image preprocessing completed.
+2025-03-05 16:51:37,908 - INFO - Processing image for column detection.
+2025-03-05 16:51:37,914 - INFO - Padding removed: Cropped width from 0 to 937
+2025-03-05 16:51:57,282 - INFO - Starting image preprocessing.
+2025-03-05 16:51:57,555 - INFO - Image preprocessing completed.
+2025-03-05 16:51:57,557 - INFO - Processing image for column detection.
+2025-03-05 16:51:57,572 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 16:52:05,138 - INFO - Starting image preprocessing.
+2025-03-05 16:52:05,505 - INFO - Image preprocessing completed.
+2025-03-05 16:52:05,507 - INFO - Processing image for column detection.
+2025-03-05 16:52:05,528 - INFO - Padding removed: Cropped width from 0 to 937
+2025-03-05 16:52:17,247 - INFO - Starting image preprocessing.
+2025-03-05 16:52:17,567 - INFO - Image preprocessing completed.
+2025-03-05 16:52:17,569 - INFO - Processing image for column detection.
+2025-03-05 16:52:17,583 - INFO - Padding removed: Cropped width from 0 to 938
+2025-03-05 16:52:29,594 - INFO - Starting image preprocessing.
+2025-03-05 16:52:29,932 - INFO - Image preprocessing completed.
+2025-03-05 16:52:29,951 - INFO - Processing image for column detection.
+2025-03-05 16:52:29,973 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 16:52:38,621 - INFO - Starting image preprocessing.
+2025-03-05 16:52:38,893 - INFO - Image preprocessing completed.
+2025-03-05 16:52:38,895 - INFO - Processing image for column detection.
+2025-03-05 16:52:38,923 - INFO - Padding removed: Cropped width from 0 to 940
+2025-03-05 16:52:49,452 - INFO - Starting image preprocessing.
+2025-03-05 16:52:50,195 - INFO - Image preprocessing completed.
+2025-03-05 16:52:50,200 - INFO - Processing image for column detection.
+2025-03-05 16:52:50,228 - INFO - Padding removed: Cropped width from 1 to 938
+2025-03-05 16:52:50,381 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:53:20,606 - INFO - Starting image preprocessing.
+2025-03-05 16:53:20,894 - INFO - Image preprocessing completed.
+2025-03-05 16:53:20,896 - INFO - Processing image for column detection.
+2025-03-05 16:53:20,914 - INFO - Padding removed: Cropped width from 1 to 940
+2025-03-05 16:53:25,716 - INFO - Starting image preprocessing.
+2025-03-05 16:53:26,248 - INFO - Image preprocessing completed.
+2025-03-05 16:53:26,250 - INFO - Processing image for column detection.
+2025-03-05 16:53:26,276 - INFO - Padding removed: Cropped width from 3 to 939
+2025-03-05 16:53:26,319 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:54:00,131 - INFO - Starting image preprocessing.
+2025-03-05 16:54:00,669 - INFO - Image preprocessing completed.
+2025-03-05 16:54:01,655 - INFO - Processing image for column detection.
+2025-03-05 16:54:01,690 - INFO - Padding removed: Cropped width from 0 to 941
+2025-03-05 16:54:13,539 - INFO - Starting image preprocessing.
+2025-03-05 16:54:13,962 - INFO - Image preprocessing completed.
+2025-03-05 16:54:13,964 - INFO - Processing image for column detection.
+2025-03-05 16:54:13,972 - INFO - Padding removed: Cropped width from 0 to 938
+2025-03-05 16:54:14,003 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:55:02,153 - INFO - Starting image preprocessing.
+2025-03-05 16:55:02,536 - INFO - Image preprocessing completed.
+2025-03-05 16:55:02,538 - INFO - Processing image for column detection.
+2025-03-05 16:55:02,571 - INFO - Padding removed: Cropped width from 0 to 939
+2025-03-05 16:55:19,392 - INFO - Starting image preprocessing.
+2025-03-05 16:55:19,784 - INFO - Image preprocessing completed.
+2025-03-05 16:55:19,786 - INFO - Processing image for column detection.
+2025-03-05 16:55:19,800 - INFO - Padding removed: Cropped width from 2 to 938
+2025-03-05 16:55:19,888 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:55:44,284 - INFO - Starting image preprocessing.
+2025-03-05 16:55:44,608 - INFO - Image preprocessing completed.
+2025-03-05 16:55:44,610 - INFO - Processing image for column detection.
+2025-03-05 16:55:44,654 - INFO - Padding removed: Cropped width from 0 to 919
+2025-03-05 16:55:48,303 - INFO - Starting image preprocessing.
+2025-03-05 16:55:48,821 - INFO - Image preprocessing completed.
+2025-03-05 16:55:48,833 - INFO - Processing image for column detection.
+2025-03-05 16:55:48,861 - INFO - Padding removed: Cropped width from 0 to 938
+2025-03-05 16:56:15,808 - INFO - Starting image preprocessing.
+2025-03-05 16:56:16,164 - INFO - Image preprocessing completed.
+2025-03-05 16:56:16,166 - INFO - Processing image for column detection.
+2025-03-05 16:56:16,191 - INFO - Padding removed: Cropped width from 0 to 937
+2025-03-05 16:56:23,335 - INFO - Starting image preprocessing.
+2025-03-05 16:56:23,707 - INFO - Image preprocessing completed.
+2025-03-05 16:56:23,709 - INFO - Processing image for column detection.
+2025-03-05 16:56:23,731 - INFO - Padding removed: Cropped width from 2 to 931
+2025-03-05 16:56:23,795 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:56:51,709 - INFO - Starting image preprocessing.
+2025-03-05 16:56:51,988 - INFO - Image preprocessing completed.
+2025-03-05 16:56:51,990 - INFO - Processing image for column detection.
+2025-03-05 16:56:52,010 - INFO - Padding removed: Cropped width from 2 to 926
+2025-03-05 16:56:54,212 - INFO - Starting image preprocessing.
+2025-03-05 16:56:54,496 - INFO - Image preprocessing completed.
+2025-03-05 16:56:54,536 - INFO - Processing image for column detection.
+2025-03-05 16:56:54,547 - INFO - Padding removed: Cropped width from 0 to 940
+2025-03-05 16:56:54,575 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:57:20,081 - INFO - Starting image preprocessing.
+2025-03-05 16:57:20,496 - INFO - Image preprocessing completed.
+2025-03-05 16:57:20,498 - INFO - Processing image for column detection.
+2025-03-05 16:57:20,518 - INFO - Padding removed: Cropped width from 0 to 919
+2025-03-05 16:57:22,492 - INFO - Starting image preprocessing.
+2025-03-05 16:57:22,762 - INFO - Image preprocessing completed.
+2025-03-05 16:57:22,764 - INFO - Processing image for column detection.
+2025-03-05 16:57:22,777 - INFO - Padding removed: Cropped width from 4 to 949
+2025-03-05 16:57:22,804 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 16:57:49,289 - INFO - Starting image preprocessing.
+2025-03-05 16:57:49,581 - INFO - Image preprocessing completed.
+2025-03-05 16:57:49,583 - INFO - Processing image for column detection.
+2025-03-05 16:57:49,599 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 16:57:49,628 - INFO - No columns detected, assuming single column layout.
+2025-03-05 16:58:07,634 - INFO - Starting image preprocessing.
+2025-03-05 16:58:07,938 - INFO - Image preprocessing completed.
+2025-03-05 16:58:07,940 - INFO - Processing image for column detection.
+2025-03-05 16:58:07,962 - INFO - Padding removed: Cropped width from 4 to 949
+2025-03-05 16:58:21,383 - INFO - Starting image preprocessing.
+2025-03-05 16:58:21,754 - INFO - Image preprocessing completed.
+2025-03-05 16:58:21,774 - INFO - Processing image for column detection.
+2025-03-05 16:58:21,843 - INFO - Padding removed: Cropped width from 0 to 945
+2025-03-05 16:58:30,096 - INFO - Starting image preprocessing.
+2025-03-05 16:58:30,501 - INFO - Image preprocessing completed.
+2025-03-05 16:58:30,502 - INFO - Processing image for column detection.
+2025-03-05 16:58:30,535 - INFO - Padding removed: Cropped width from 3 to 949
+2025-03-05 16:58:54,423 - INFO - Starting image preprocessing.
+2025-03-05 16:58:54,845 - INFO - Image preprocessing completed.
+2025-03-05 16:58:54,848 - INFO - Processing image for column detection.
+2025-03-05 16:58:54,879 - INFO - Padding removed: Cropped width from 0 to 943
+2025-03-05 16:59:07,292 - INFO - Starting image preprocessing.
+2025-03-05 16:59:07,597 - INFO - Image preprocessing completed.
+2025-03-05 16:59:07,599 - INFO - Processing image for column detection.
+2025-03-05 16:59:07,624 - INFO - Padding removed: Cropped width from 0 to 945
+2025-03-05 16:59:24,749 - INFO - Starting image preprocessing.
+2025-03-05 16:59:25,041 - INFO - Image preprocessing completed.
+2025-03-05 16:59:25,043 - INFO - Processing image for column detection.
+2025-03-05 16:59:25,054 - INFO - Padding removed: Cropped width from 0 to 937
+2025-03-05 16:59:33,530 - INFO - Starting image preprocessing.
+2025-03-05 16:59:33,815 - INFO - Image preprocessing completed.
+2025-03-05 16:59:33,816 - INFO - Processing image for column detection.
+2025-03-05 16:59:33,827 - INFO - Padding removed: Cropped width from 1 to 946
+2025-03-05 16:59:51,558 - INFO - Starting image preprocessing.
+2025-03-05 16:59:51,990 - INFO - Image preprocessing completed.
+2025-03-05 16:59:52,003 - INFO - Processing image for column detection.
+2025-03-05 16:59:52,015 - INFO - Padding removed: Cropped width from 0 to 944
+2025-03-05 17:00:10,376 - INFO - Starting image preprocessing.
+2025-03-05 17:00:11,141 - INFO - Image preprocessing completed.
+2025-03-05 17:00:11,143 - INFO - Processing image for column detection.
+2025-03-05 17:00:11,206 - INFO - Padding removed: Cropped width from 0 to 945
+2025-03-05 17:00:34,933 - INFO - Starting image preprocessing.
+2025-03-05 17:00:35,322 - INFO - Image preprocessing completed.
+2025-03-05 17:00:35,324 - INFO - Processing image for column detection.
+2025-03-05 17:00:35,360 - INFO - Padding removed: Cropped width from 0 to 945
+2025-03-05 17:00:51,719 - INFO - Starting image preprocessing.
+2025-03-05 17:00:52,039 - INFO - Image preprocessing completed.
+2025-03-05 17:00:52,041 - INFO - Processing image for column detection.
+2025-03-05 17:00:52,067 - INFO - Padding removed: Cropped width from 0 to 941
+2025-03-05 17:00:57,054 - INFO - Starting image preprocessing.
+2025-03-05 17:00:57,474 - INFO - Image preprocessing completed.
+2025-03-05 17:00:57,476 - INFO - Processing image for column detection.
+2025-03-05 17:00:57,506 - INFO - Padding removed: Cropped width from 1 to 941
+2025-03-05 17:01:34,447 - INFO - Starting image preprocessing.
+2025-03-05 17:01:35,366 - INFO - Image preprocessing completed.
+2025-03-05 17:01:35,372 - INFO - Processing image for column detection.
+2025-03-05 17:01:35,423 - INFO - Padding removed: Cropped width from 0 to 941
+2025-03-05 17:01:55,930 - INFO - Starting image preprocessing.
+2025-03-05 17:01:56,551 - INFO - Image preprocessing completed.
+2025-03-05 17:01:56,553 - INFO - Processing image for column detection.
+2025-03-05 17:01:56,686 - INFO - Padding removed: Cropped width from 0 to 942
+2025-03-05 17:02:31,739 - INFO - Starting image preprocessing.
+2025-03-05 17:02:32,618 - INFO - Image preprocessing completed.
+2025-03-05 17:02:32,747 - INFO - Processing image for column detection.
+2025-03-05 17:02:32,891 - INFO - Padding removed: Cropped width from 0 to 942
+2025-03-05 17:02:49,260 - INFO - Starting image preprocessing.
+2025-03-05 17:02:49,533 - INFO - Image preprocessing completed.
+2025-03-05 17:02:49,535 - INFO - Processing image for column detection.
+2025-03-05 17:02:49,561 - INFO - Padding removed: Cropped width from 2 to 906
+2025-03-05 17:02:49,629 - INFO - No columns detected, assuming single column layout.
+2025-03-05 17:03:44,558 - INFO - Starting image preprocessing.
+2025-03-05 17:03:46,096 - INFO - Image preprocessing completed.
+2025-03-05 17:03:46,103 - INFO - Processing image for column detection.
+2025-03-05 17:03:46,189 - INFO - Padding removed: Cropped width from 0 to 943
+2025-03-05 17:03:46,314 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:04:55,747 - INFO - Starting image preprocessing.
+2025-03-05 17:04:56,219 - INFO - Image preprocessing completed.
+2025-03-05 17:04:56,221 - INFO - Processing image for column detection.
+2025-03-05 17:04:56,265 - INFO - Padding removed: Cropped width from 0 to 941
+2025-03-05 17:05:23,440 - INFO - Starting image preprocessing.
+2025-03-05 17:05:23,717 - INFO - Image preprocessing completed.
+2025-03-05 17:05:23,735 - INFO - Processing image for column detection.
+2025-03-05 17:05:23,762 - INFO - Padding removed: Cropped width from 0 to 946
+2025-03-05 17:05:28,461 - INFO - Starting image preprocessing.
+2025-03-05 17:05:28,832 - INFO - Image preprocessing completed.
+2025-03-05 17:05:28,855 - INFO - Processing image for column detection.
+2025-03-05 17:05:28,866 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 17:05:51,885 - INFO - Starting image preprocessing.
+2025-03-05 17:05:52,179 - INFO - Image preprocessing completed.
+2025-03-05 17:05:52,181 - INFO - Processing image for column detection.
+2025-03-05 17:05:52,209 - INFO - Padding removed: Cropped width from 0 to 945
+2025-03-05 17:05:52,254 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:06:37,061 - INFO - Starting image preprocessing.
+2025-03-05 17:06:37,485 - INFO - Image preprocessing completed.
+2025-03-05 17:06:37,488 - INFO - Processing image for column detection.
+2025-03-05 17:06:37,602 - INFO - Padding removed: Cropped width from 0 to 947
+2025-03-05 17:06:54,493 - INFO - Starting image preprocessing.
+2025-03-05 17:06:54,857 - INFO - Image preprocessing completed.
+2025-03-05 17:06:54,871 - INFO - Processing image for column detection.
+2025-03-05 17:06:54,878 - INFO - Padding removed: Cropped width from 1 to 945
+2025-03-05 17:06:54,922 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:07:38,173 - INFO - Starting image preprocessing.
+2025-03-05 17:07:38,446 - INFO - Image preprocessing completed.
+2025-03-05 17:07:38,449 - INFO - Processing image for column detection.
+2025-03-05 17:07:38,490 - INFO - Padding removed: Cropped width from 0 to 942
+2025-03-05 17:07:51,903 - INFO - Starting image preprocessing.
+2025-03-05 17:07:52,223 - INFO - Image preprocessing completed.
+2025-03-05 17:07:52,234 - INFO - Processing image for column detection.
+2025-03-05 17:07:52,241 - INFO - Padding removed: Cropped width from 5 to 942
+2025-03-05 17:07:52,286 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:08:41,976 - INFO - Starting image preprocessing.
+2025-03-05 17:08:42,275 - INFO - Image preprocessing completed.
+2025-03-05 17:08:42,285 - INFO - Processing image for column detection.
+2025-03-05 17:08:42,327 - INFO - Padding removed: Cropped width from 0 to 944
+2025-03-05 17:08:59,474 - INFO - Starting image preprocessing.
+2025-03-05 17:08:59,874 - INFO - Image preprocessing completed.
+2025-03-05 17:08:59,887 - INFO - Processing image for column detection.
+2025-03-05 17:08:59,935 - INFO - Padding removed: Cropped width from 10 to 943
+2025-03-05 17:08:59,974 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:09:45,426 - INFO - Starting image preprocessing.
+2025-03-05 17:09:45,886 - INFO - Image preprocessing completed.
+2025-03-05 17:09:45,887 - INFO - Processing image for column detection.
+2025-03-05 17:09:45,955 - INFO - Padding removed: Cropped width from 0 to 941
+2025-03-05 17:09:59,464 - INFO - Starting image preprocessing.
+2025-03-05 17:09:59,912 - INFO - Image preprocessing completed.
+2025-03-05 17:09:59,914 - INFO - Processing image for column detection.
+2025-03-05 17:09:59,940 - INFO - Padding removed: Cropped width from 0 to 942
+2025-03-05 17:10:11,134 - INFO - Starting image preprocessing.
+2025-03-05 17:10:11,443 - INFO - Image preprocessing completed.
+2025-03-05 17:10:11,445 - INFO - Processing image for column detection.
+2025-03-05 17:10:11,487 - INFO - Padding removed: Cropped width from 0 to 943
+2025-03-05 17:10:33,432 - INFO - Starting image preprocessing.
+2025-03-05 17:10:33,940 - INFO - Image preprocessing completed.
+2025-03-05 17:10:33,946 - INFO - Processing image for column detection.
+2025-03-05 17:10:33,956 - INFO - Padding removed: Cropped width from 7 to 937
+2025-03-05 17:10:34,048 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:11:29,479 - INFO - Starting image preprocessing.
+2025-03-05 17:11:29,818 - INFO - Image preprocessing completed.
+2025-03-05 17:11:29,822 - INFO - Processing image for column detection.
+2025-03-05 17:11:29,855 - INFO - Padding removed: Cropped width from 0 to 942
+2025-03-05 17:11:44,612 - INFO - Starting image preprocessing.
+2025-03-05 17:11:44,939 - INFO - Image preprocessing completed.
+2025-03-05 17:11:44,942 - INFO - Processing image for column detection.
+2025-03-05 17:11:44,986 - INFO - Padding removed: Cropped width from 1 to 941
+2025-03-05 17:11:52,873 - INFO - Starting image preprocessing.
+2025-03-05 17:11:53,183 - INFO - Image preprocessing completed.
+2025-03-05 17:11:53,186 - INFO - Processing image for column detection.
+2025-03-05 17:11:53,214 - INFO - Padding removed: Cropped width from 0 to 943
+2025-03-05 17:12:01,338 - INFO - Starting image preprocessing.
+2025-03-05 17:12:01,824 - INFO - Image preprocessing completed.
+2025-03-05 17:12:01,848 - INFO - Processing image for column detection.
+2025-03-05 17:12:01,856 - INFO - Padding removed: Cropped width from 0 to 942
+2025-03-05 17:12:01,913 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:12:50,757 - INFO - Starting image preprocessing.
+2025-03-05 17:12:51,053 - INFO - Image preprocessing completed.
+2025-03-05 17:12:51,055 - INFO - Processing image for column detection.
+2025-03-05 17:12:51,084 - INFO - Padding removed: Cropped width from 0 to 945
+2025-03-05 17:13:05,196 - INFO - Starting image preprocessing.
+2025-03-05 17:13:05,681 - INFO - Image preprocessing completed.
+2025-03-05 17:13:05,683 - INFO - Processing image for column detection.
+2025-03-05 17:13:05,727 - INFO - Padding removed: Cropped width from 0 to 942
+2025-03-05 17:13:29,089 - INFO - Starting image preprocessing.
+2025-03-05 17:13:29,398 - INFO - Image preprocessing completed.
+2025-03-05 17:13:29,400 - INFO - Processing image for column detection.
+2025-03-05 17:13:29,436 - INFO - Padding removed: Cropped width from 0 to 944
+2025-03-05 17:13:55,489 - INFO - Starting image preprocessing.
+2025-03-05 17:13:55,955 - INFO - Image preprocessing completed.
+2025-03-05 17:13:55,986 - INFO - Processing image for column detection.
+2025-03-05 17:13:56,003 - INFO - Padding removed: Cropped width from 3 to 941
+2025-03-05 17:13:56,064 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:14:47,150 - INFO - Starting image preprocessing.
+2025-03-05 17:14:47,798 - INFO - Image preprocessing completed.
+2025-03-05 17:14:47,800 - INFO - Processing image for column detection.
+2025-03-05 17:14:47,817 - INFO - Padding removed: Cropped width from 0 to 944
+2025-03-05 17:15:10,098 - INFO - Starting image preprocessing.
+2025-03-05 17:15:10,480 - INFO - Image preprocessing completed.
+2025-03-05 17:15:10,636 - INFO - Processing image for column detection.
+2025-03-05 17:15:11,507 - INFO - Padding removed: Cropped width from 2 to 943
+2025-03-05 17:15:11,562 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:16:20,660 - INFO - Starting image preprocessing.
+2025-03-05 17:16:21,044 - INFO - Image preprocessing completed.
+2025-03-05 17:16:21,061 - INFO - Processing image for column detection.
+2025-03-05 17:16:21,135 - INFO - Padding removed: Cropped width from 0 to 942
+2025-03-05 17:16:48,132 - INFO - Starting image preprocessing.
+2025-03-05 17:16:48,494 - INFO - Image preprocessing completed.
+2025-03-05 17:16:48,495 - INFO - Processing image for column detection.
+2025-03-05 17:16:48,528 - INFO - Padding removed: Cropped width from 0 to 934
+2025-03-05 17:16:48,676 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:17:49,744 - INFO - Starting image preprocessing.
+2025-03-05 17:17:50,332 - INFO - Image preprocessing completed.
+2025-03-05 17:17:50,335 - INFO - Processing image for column detection.
+2025-03-05 17:17:50,441 - INFO - Padding removed: Cropped width from 0 to 936
+2025-03-05 17:18:14,300 - INFO - Starting image preprocessing.
+2025-03-05 17:18:14,920 - INFO - Image preprocessing completed.
+2025-03-05 17:18:14,926 - INFO - Processing image for column detection.
+2025-03-05 17:18:15,432 - INFO - Padding removed: Cropped width from 0 to 935
+2025-03-05 17:18:44,038 - INFO - Starting image preprocessing.
+2025-03-05 17:18:44,450 - INFO - Image preprocessing completed.
+2025-03-05 17:18:44,452 - INFO - Processing image for column detection.
+2025-03-05 17:18:44,487 - INFO - Padding removed: Cropped width from 0 to 937
+2025-03-05 17:22:20,885 - INFO - Starting PDF extraction. Source path: /Users/kumareshdey/Downloads/Chinese Poems2.pdf. Dest path: /Users/kumareshdey/Downloads
+2025-03-05 17:22:20,982 - INFO - Poppler is already installed.
+2025-03-05 17:22:20,983 - INFO - Poppler is already installed. No need to install again.
+2025-03-05 17:22:20,987 - INFO - TextBlob is ready to use!
+2025-03-05 17:22:20,987 - INFO - Starting processing for: /Users/kumareshdey/Downloads/Chinese Poems2.pdf
+2025-03-05 17:22:20,987 - INFO - Output path /Users/kumareshdey/Downloads/Chinese Poems2.txt
+2025-03-05 17:22:20,987 - INFO - Extracting text from file: /Users/kumareshdey/Downloads/Chinese Poems2.pdf
+2025-03-05 17:22:20,988 - INFO - Processing PDF: /Users/kumareshdey/Downloads/Chinese Poems2.pdf
+2025-03-05 17:22:30,676 - INFO - Starting image preprocessing.
+2025-03-05 17:22:30,912 - INFO - Image preprocessing completed.
+2025-03-05 17:22:30,913 - INFO - Processing image for column detection.
+2025-03-05 17:22:30,924 - INFO - Padding removed: Cropped width from 10 to 956
+2025-03-05 17:22:32,608 - INFO - Starting image preprocessing.
+2025-03-05 17:22:32,801 - INFO - Image preprocessing completed.
+2025-03-05 17:22:32,805 - INFO - Processing image for column detection.
+2025-03-05 17:22:32,808 - INFO - Padding removed: Cropped width from 0 to 940
+2025-03-05 17:22:34,347 - INFO - Starting image preprocessing.
+2025-03-05 17:22:34,546 - INFO - Image preprocessing completed.
+2025-03-05 17:22:34,547 - INFO - Processing image for column detection.
+2025-03-05 17:22:34,564 - INFO - Padding removed: Cropped width from 15 to 957
+2025-03-05 17:22:36,384 - INFO - Starting image preprocessing.
+2025-03-05 17:22:36,836 - INFO - Image preprocessing completed.
+2025-03-05 17:22:36,837 - INFO - Processing image for column detection.
+2025-03-05 17:22:36,843 - INFO - Padding removed: Cropped width from 0 to 939
+2025-03-05 17:22:38,794 - INFO - Starting image preprocessing.
+2025-03-05 17:22:39,044 - INFO - Image preprocessing completed.
+2025-03-05 17:22:39,045 - INFO - Processing image for column detection.
+2025-03-05 17:22:39,055 - INFO - Padding removed: Cropped width from 9 to 955
+2025-03-05 17:22:40,169 - INFO - Preprocessed images saved as PDF: /Users/kumareshdey/Downloads/Chinese Poems2_preprocessed.pdf
+2025-03-05 17:22:40,170 - INFO - Text extraction completed.
+2025-03-05 17:22:40,180 - INFO - Saving extracted text to: /Users/kumareshdey/Downloads/Chinese Poems2.txt
+2025-03-05 17:22:40,188 - INFO - Text successfully saved to: /Users/kumareshdey/Downloads/Chinese Poems2.txt
+2025-03-05 17:22:40,188 - INFO - Processing completed.
+2025-03-05 17:22:40,189 - INFO - PDF extraction completed.
+2025-03-05 17:27:05,260 - INFO - Starting PDF extraction. Source path: /Users/kumareshdey/Downloads/ALLUSIONS1.pdf. Dest path: /Users/kumareshdey/Downloads
+2025-03-05 17:27:05,384 - INFO - Poppler is already installed.
+2025-03-05 17:27:05,384 - INFO - Poppler is already installed. No need to install again.
+2025-03-05 17:27:05,388 - INFO - TextBlob is ready to use!
+2025-03-05 17:27:05,388 - INFO - Starting processing for: /Users/kumareshdey/Downloads/ALLUSIONS1.pdf
+2025-03-05 17:27:05,388 - INFO - Output path /Users/kumareshdey/Downloads/ALLUSIONS1.txt
+2025-03-05 17:27:05,389 - INFO - Extracting text from file: /Users/kumareshdey/Downloads/ALLUSIONS1.pdf
+2025-03-05 17:27:05,389 - INFO - Processing PDF: /Users/kumareshdey/Downloads/ALLUSIONS1.pdf
+2025-03-05 17:27:25,794 - INFO - Starting image preprocessing.
+2025-03-05 17:27:26,068 - INFO - Image preprocessing completed.
+2025-03-05 17:27:26,069 - INFO - Processing image for column detection.
+2025-03-05 17:27:26,092 - INFO - Padding removed: Cropped width from 91 to 1008
+2025-03-05 17:27:26,146 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:27:30,167 - INFO - Starting image preprocessing.
+2025-03-05 17:27:30,406 - INFO - Image preprocessing completed.
+2025-03-05 17:27:30,407 - INFO - Processing image for column detection.
+2025-03-05 17:27:30,411 - INFO - Padding removed: Cropped width from 2 to 931
+2025-03-05 17:27:30,438 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:27:33,181 - INFO - Starting image preprocessing.
+2025-03-05 17:27:33,423 - INFO - Image preprocessing completed.
+2025-03-05 17:27:33,423 - INFO - Processing image for column detection.
+2025-03-05 17:27:33,432 - INFO - Padding removed: Cropped width from 93 to 939
+2025-03-05 17:27:33,462 - WARNING - Invalid column divider position: 843. Returning single column.
+2025-03-05 17:27:35,590 - INFO - Starting image preprocessing.
+2025-03-05 17:27:35,828 - INFO - Image preprocessing completed.
+2025-03-05 17:27:35,828 - INFO - Processing image for column detection.
+2025-03-05 17:27:35,837 - INFO - Padding removed: Cropped width from 2 to 969
+2025-03-05 17:27:35,867 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:27:42,817 - INFO - Starting image preprocessing.
+2025-03-05 17:27:43,059 - INFO - Image preprocessing completed.
+2025-03-05 17:27:43,060 - INFO - Processing image for column detection.
+2025-03-05 17:27:43,074 - INFO - Padding removed: Cropped width from 91 to 952
+2025-03-05 17:27:48,036 - INFO - Starting image preprocessing.
+2025-03-05 17:27:49,095 - ERROR - Error processing PDF: main thread is not in main loop
+Traceback (most recent call last):
+  File "/Users/kumareshdey/Desktop/fiverr/pdf_to_text_extractor/full_implementation_1.py", line 151, in extract_text_from_pdf
+    processed_image = preprocess_image(image, logger)
+  File "/Users/kumareshdey/Desktop/fiverr/pdf_to_text_extractor/full_implementation_1.py", line 19, in preprocess_image
+    logger.info("Starting image preprocessing.")
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/kagi_scraper/lib/python3.10/logging/__init__.py", line 1477, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/kagi_scraper/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/kagi_scraper/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/kagi_scraper/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/kagi_scraper/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/Users/kumareshdey/Desktop/fiverr/pdf_to_text_extractor/ui.py", line 47, in emit
+    self.logger_widget.log_text(msg, tag)
+  File "/Users/kumareshdey/Desktop/fiverr/pdf_to_text_extractor/ui.py", line 25, in log_text
+    self.textbox.config(state="normal")
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/kagi_scraper/lib/python3.10/tkinter/__init__.py", line 1675, in configure
+    return self._configure('configure', cnf, kw)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/kagi_scraper/lib/python3.10/tkinter/__init__.py", line 1665, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+
+2025-03-05 17:27:50,129 - ERROR - Error occurred: main thread is not in main loop
+2025-03-05 17:28:20,535 - INFO - Starting PDF extraction. Source path: /Users/kumareshdey/Downloads/ALLUSIONS1.pdf. Dest path: /Users/kumareshdey/Downloads
+2025-03-05 17:28:20,619 - INFO - Poppler is already installed.
+2025-03-05 17:28:20,620 - INFO - Poppler is already installed. No need to install again.
+2025-03-05 17:28:20,620 - INFO - TextBlob is ready to use!
+2025-03-05 17:28:20,621 - INFO - Starting processing for: /Users/kumareshdey/Downloads/ALLUSIONS1.pdf
+2025-03-05 17:28:20,621 - INFO - Output path /Users/kumareshdey/Downloads/ALLUSIONS1.txt
+2025-03-05 17:28:20,621 - INFO - Extracting text from file: /Users/kumareshdey/Downloads/ALLUSIONS1.pdf
+2025-03-05 17:28:20,622 - INFO - Processing PDF: /Users/kumareshdey/Downloads/ALLUSIONS1.pdf
+2025-03-05 17:28:41,151 - INFO - Starting image preprocessing.
+2025-03-05 17:28:41,393 - INFO - Image preprocessing completed.
+2025-03-05 17:28:41,394 - INFO - Processing image for column detection.
+2025-03-05 17:28:41,410 - INFO - Padding removed: Cropped width from 91 to 1008
+2025-03-05 17:28:41,453 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:28:45,202 - INFO - Starting image preprocessing.
+2025-03-05 17:28:45,452 - INFO - Image preprocessing completed.
+2025-03-05 17:28:45,453 - INFO - Processing image for column detection.
+2025-03-05 17:28:45,465 - INFO - Padding removed: Cropped width from 2 to 931
+2025-03-05 17:28:45,492 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:28:48,541 - INFO - Starting image preprocessing.
+2025-03-05 17:28:48,786 - INFO - Image preprocessing completed.
+2025-03-05 17:28:48,787 - INFO - Processing image for column detection.
+2025-03-05 17:28:48,797 - INFO - Padding removed: Cropped width from 93 to 939
+2025-03-05 17:28:48,827 - WARNING - Invalid column divider position: 843. Returning single column.
+2025-03-05 17:28:50,984 - INFO - Starting image preprocessing.
+2025-03-05 17:28:51,205 - INFO - Image preprocessing completed.
+2025-03-05 17:28:51,207 - INFO - Processing image for column detection.
+2025-03-05 17:28:51,216 - INFO - Padding removed: Cropped width from 2 to 969
+2025-03-05 17:28:51,246 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:28:57,224 - INFO - Starting image preprocessing.
+2025-03-05 17:28:57,501 - INFO - Image preprocessing completed.
+2025-03-05 17:28:57,503 - INFO - Processing image for column detection.
+2025-03-05 17:28:57,513 - INFO - Padding removed: Cropped width from 91 to 952
+2025-03-05 17:29:01,676 - INFO - Preprocessed images saved as PDF: /Users/kumareshdey/Downloads/ALLUSIONS1_preprocessed.pdf
+2025-03-05 17:29:01,681 - INFO - Text extraction completed.
+2025-03-05 17:29:01,691 - INFO - Saving extracted text to: /Users/kumareshdey/Downloads/ALLUSIONS1.txt
+2025-03-05 17:29:01,693 - INFO - Text successfully saved to: /Users/kumareshdey/Downloads/ALLUSIONS1.txt
+2025-03-05 17:29:01,707 - INFO - Processing completed.
+2025-03-05 17:29:01,709 - INFO - PDF extraction completed.
+2025-03-05 17:31:09,041 - INFO - Starting PDF extraction. Source path: /Users/kumareshdey/Downloads/Nursery Rhymes1.pdf. Dest path: /Users/kumareshdey/Downloads
+2025-03-05 17:31:09,132 - INFO - Poppler is already installed.
+2025-03-05 17:31:09,133 - INFO - Poppler is already installed. No need to install again.
+2025-03-05 17:31:09,139 - INFO - TextBlob is ready to use!
+2025-03-05 17:31:09,140 - INFO - Starting processing for: /Users/kumareshdey/Downloads/Nursery Rhymes1.pdf
+2025-03-05 17:31:09,140 - INFO - Output path /Users/kumareshdey/Downloads/Nursery Rhymes1.txt
+2025-03-05 17:31:09,141 - INFO - Extracting text from file: /Users/kumareshdey/Downloads/Nursery Rhymes1.pdf
+2025-03-05 17:31:09,141 - INFO - Processing PDF: /Users/kumareshdey/Downloads/Nursery Rhymes1.pdf
+2025-03-05 17:31:29,195 - INFO - Starting image preprocessing.
+2025-03-05 17:31:29,538 - INFO - Image preprocessing completed.
+2025-03-05 17:31:29,539 - INFO - Processing image for column detection.
+2025-03-05 17:31:29,556 - INFO - Padding removed: Cropped width from 109 to 1147
+2025-03-05 17:31:31,099 - INFO - Starting image preprocessing.
+2025-03-05 17:31:31,424 - INFO - Image preprocessing completed.
+2025-03-05 17:31:31,426 - INFO - Processing image for column detection.
+2025-03-05 17:31:31,435 - INFO - Padding removed: Cropped width from 155 to 1255
+2025-03-05 17:31:31,461 - INFO - No valid column dividers found with gap > 100. Returning single column.
+2025-03-05 17:31:32,629 - INFO - Starting image preprocessing.
+2025-03-05 17:31:33,046 - INFO - Image preprocessing completed.
+2025-03-05 17:31:33,049 - INFO - Processing image for column detection.
+2025-03-05 17:31:33,072 - INFO - Padding removed: Cropped width from 92 to 1182
+2025-03-05 17:31:34,198 - INFO - Starting image preprocessing.
+2025-03-05 17:31:34,631 - INFO - Image preprocessing completed.
+2025-03-05 17:31:34,633 - INFO - Processing image for column detection.
+2025-03-05 17:31:34,653 - INFO - Padding removed: Cropped width from 19 to 1204
+2025-03-05 17:31:34,690 - WARNING - Invalid column divider position: 1179. Returning single column.
+2025-03-05 17:31:38,496 - INFO - Starting image preprocessing.
+2025-03-05 17:31:38,997 - INFO - Image preprocessing completed.
+2025-03-05 17:31:39,004 - INFO - Processing image for column detection.
+2025-03-05 17:31:39,022 - INFO - Padding removed: Cropped width from 84 to 1169
+2025-03-05 17:31:42,857 - INFO - Preprocessed images saved as PDF: /Users/kumareshdey/Downloads/Nursery Rhymes1_preprocessed.pdf
+2025-03-05 17:31:42,861 - INFO - Text extraction completed.
+2025-03-05 17:31:42,874 - INFO - Saving extracted text to: /Users/kumareshdey/Downloads/Nursery Rhymes1.txt
+2025-03-05 17:31:42,876 - INFO - Text successfully saved to: /Users/kumareshdey/Downloads/Nursery Rhymes1.txt
+2025-03-05 17:31:42,876 - INFO - Processing completed.
+2025-03-05 17:31:42,877 - INFO - PDF extraction completed.
